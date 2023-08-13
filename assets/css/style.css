@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bg{
+    background-color: black;
+}
+
+.nav_items{
+    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+a:hover{
+    color: green;
+}
+
+.container-fluid{
+    background: url(assets/images/bg.jpg);
+}
+
+.bottom{
+    position: sticky;
+    background-color: black;
+    height: 100px;
+   color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#progressbar{
+    width: 100vw;
+    text-align: center;
+    display: block;
+}
+
+.icons i{
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.container{
+    background-color: black;
+    min-height: 75vh;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(/assets/images/bg.jpg);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 40%;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 6px;
+    border-radius: 34px;
+}
+
+.songlistplay i{
+    cursor: pointer;
+
+}
+
+.songItemcontainer{
+    margin-top: 40px;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+#progressbar{
+    cursor: pointer;
+}

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Spotify-play free on mobile</title>
+  </head>
+  <body style="background-color: beige;">
+    <nav class="navbar navbar-light nav_bg">
+        <a class="navbar-brand text-white" href="#">
+          <img src="assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          <span style="font-size: 22px;""><b>Spotify</b></span>
+        </a>
+        <form class="form-inline my-2 my-lg-0">
+            <a class="text-white nav_items" href="#"><b>Premium</b></a>
+            <a class="text-white nav_items" href="#"><b>Support</b></a>
+            <a class="text-white nav_items" href="#"><b>Download</b></a>
+            <a class="text-white nav_items" href="#"><b>|</b></a>
+            <a class="text-white nav_items" href="#"><b>login</b></a>
+            <a class="text-white nav_items" href="#"><b>Signup</b></a>
+  
+            
+          </form>
+      </nav>
+
+      <div class="container img-fluid">
+        <!-- <h1>Best of NCS -No Copyright Sounds</h1> -->
+        <div class="songlists">
+          <h1>Best of NCS -No Copyright Sounds</h1>
+          <div class="songItemcontainer">
+            <div class="songItem">
+              <img src="assets/covers/1.jpg" alt="1">
+              <span>Marvel legion</span>
+              <span class="songlistplay"><span>03:50 <i id="1" class="fa-regular fa-circle-play songitmplay"></i></span></span>
+            </div>
+            <div class="songItem">
+              <img src="assets/covers/2.jpg" alt="1">
+              <span>TRAP -cartel</span>
+              <span class="songlistplay"><span>05:34 <i id="2" class="fa-regular fa-circle-play songitmplay"></i></span></span>
+            </div>
+            <div class="songItem">
+              <img src="assets/covers/3.jpg" alt="1">
+              <span>They mad</span>
+              <span class="songlistplay"><span>05:34 <i id="3" class="fa-regular fa-circle-play songitmplay"></i></span></span>
+            </div>
+            <div class="songItem">
+              <img src="assets/covers/4.jpg" alt="1">
+              <span>Rich the Kid</span>
+              <span class="songlistplay"><span>05:34 <i id="4" class="fa-regular fa-circle-play songitmplay"></i></span></span>
+            </div>
+            <div class="songItem">
+              <img src="assets/covers/5.jpg" alt="1">
+              <span>scars to your beautiful</span>
+              <span class="songlistplay"><span>05:34 <i id="5" class="fa-regular fa-circle-play songitmplay"></i></span></span>
+            </div>
+            <div class="songItem">
+              <img src="assets/covers/6.jpg" alt="1">
+              <span>Sucker from pain</span>
+              <span class="songlistplay"><span>05:34 <i id="6" class="fa-regular fa-circle-play songitmplay"></i></span></span>
+            </div>
+            <div class="songItem">
+              <img src="assets/covers/7.jpg" alt="1">
+              <span>Back It Up</span>
+              <span class="songlistplay"><span>05:34 <i id="7" class="fa-regular fa-circle-play songitmplay"></i></span></span>
+            </div>
+            <div class="songItem">
+              <img src="assets/covers/8.jpg" alt="1">
+              <span>The lovely Garden</span>
+              <span class="songlistplay"><span>05:34 <i id="8" class="fa-regular fa-circle-play songitmplay"></i></span></span>
+            </div>
+            <div class="songItem">
+              <img src="assets/covers/9.jpg" alt="1">
+              <span>let me be your's</span>
+              <span class="songlistplay"><span>05:34 <i id="9" class="fa-regular fa-circle-play songitmplay"></i></span></span>
+            </div>
+            <div class="songItem">
+              <img src="assets/covers/10.jpg" alt="1">
+              <span>let me love you</span>
+              <span class="songlistplay"><span>05:34 <i id="10" class="fa-regular fa-circle-play songitmplay"></i></span></span>
+            </div>
+            
+          </div>
+        </div>
+        <div class="songbanner"></div>
+
+      </div>
+
+
+
+
+      <div class="bottom">
+        <div class="row">
+        <div class="col-md-12">
+        <input type="range"min="0"max="100" name="range" value="0" id="progressbar">
+      </div>
+        <div class="icons col-md-12 text-center mt-2">
+          <i class="fa-solid fa-3x fa-backward-step"  id="previous"></i>
+          <i class="fa-regular fa-3x fa-circle-play" id="masterplay"></i>
+          <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+
+          <div class="songinfo">
+            <img src="assets/images/playing.gif" width="50px" alt="" srcset="" id="gif">  let me love you - justin Beiber
+          </div>
+        </div>
+        
+      </div>
+      </div>
+
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fc003420ee.js" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
